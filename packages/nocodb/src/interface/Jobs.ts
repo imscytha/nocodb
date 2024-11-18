@@ -140,6 +140,7 @@ export interface DataExportJobData extends JobData {
   options?: {
     delimiter?: string;
     extension_id?: string;
+    encoding?: BufferEncoding;
   };
   modelId: string;
   viewId: string;
